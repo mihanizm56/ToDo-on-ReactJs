@@ -1,0 +1,15 @@
+*{
+  outline: none;
+}
+.App {
+  display: flex;
+  padding: 10px;
+  width: 25%;
+  margin-left: 37.5%;
+  color: #fff;
+  font-size: 1.3em;
+  flex-direction: column;
+  align-items: center;
+}
+
+
