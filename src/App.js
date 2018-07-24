@@ -48,7 +48,7 @@ class App extends Component {
         //<button onClick={this.addTask.bind (null, 'Простое задание')} className="btn blue">Новое задание</button>
         //{this.state.tasks.map(this.eachTask)}
         //<Check></Check>
-        <Provider>
+        <Provider store={store}>
             <WebPage/>
         </Provider>
       </div>
