@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import CarsList from '../containers/car-list';
-
+import Details from './reducers/details';
 
 class WebPage extends Component{
   
@@ -11,6 +11,7 @@ class WebPage extends Component{
         <CarsList/>
         <hr />
         <h3>Details:</h3>
+        <Details />
       </div>    
     )
   }
